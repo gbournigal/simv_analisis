@@ -33,7 +33,7 @@ entidad_mapping = {
 }
 
 
-df = pd.read_csv("datos_simv.csv")
+df = pd.read_csv("datos/datos_simv.csv")
 df = df[
     df["entidad"]
     != "CITINVERSIONES DE TITULOS Y VALORES, S.A. PUESTO DE BOLSA"
