@@ -248,7 +248,7 @@ fig_liquidez = plot_barras(liquidez.copy(), "Efectivo / Pasivos")
 
 fig_solvencia_l = plot_serie_entidad_v_sistema(solvencia.copy(), "Solvencia")
 fig_rentabilidad_l = plot_serie_entidad_v_sistema(
-    rentabilidad.copy(), "Rentabilidad Financiera / Utilidades"
+    rentabilidad.copy(), "Utilidades / Rentabilidad Financiera"
 )
 fig_liquidez_l = plot_serie_entidad_v_sistema(
     liquidez.copy(), "Efectivo / Pasivos"

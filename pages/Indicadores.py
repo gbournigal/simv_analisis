@@ -208,7 +208,7 @@ liquidez = get_liquidez()
 
 dfs = {
     "Solvencia": solvencia,
-    "Rentabilidad Financiera / Utilidades": rentabilidad,
+    "Utilidades / Rentabilidad Financiera": rentabilidad,
     "Efectivo / Pasivos": liquidez,
 }
 
@@ -217,7 +217,7 @@ indicador = st.selectbox(
     "Seleccionar Indicador",
     [
         "Solvencia",
-        "Rentabilidad Financiera / Utilidades",
+        "Utilidades / Rentabilidad Financiera",
         "Efectivo / Pasivos",
     ],
     0,
