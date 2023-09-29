@@ -242,7 +242,7 @@ def plot_serie_entidad_v_sistema(df, variable):
 
 fig_solvencia = plot_barras(solvencia.copy(), "Solvencia")
 fig_rentabilidad = plot_barras(
-    rentabilidad.copy(), "Rentabilidad Financiera / Utilidades"
+    rentabilidad.copy(), "Utilidades / Rentabilidad Financiera"
 )
 fig_liquidez = plot_barras(liquidez.copy(), "Efectivo / Pasivos")
 
